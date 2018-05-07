@@ -104,6 +104,98 @@
    </hash>
    <hash n="oracle.jdeveloper.deploy.dt.DeploymentProfiles">
       <hash n="profileDefinitions">
+         <hash n="blogsharedskin">
+            <hash n="archiveOptions">
+               <value n="hasManifest" v="true"/>
+            </hash>
+            <hash n="fileGroups">
+               <list n="groups">
+                  <hash>
+                     <list n="contributors">
+                        <hash>
+                           <value n="type" v="2"/>
+                        </hash>
+                        <hash>
+                           <value n="type" v="7"/>
+                        </hash>
+                        <hash>
+                           <url n="location" path="public_html/"/>
+                           <value n="type" v="1"/>
+                        </hash>
+                     </list>
+                     <value n="displayName" v="Project Output"/>
+                     <hash n="filters">
+                        <list n="rules">
+                           <hash>
+                              <value n="pattern" v="skins/sharedskin/adf/"/>
+                              <value n="type" v="1"/>
+                           </hash>
+                           <hash>
+                              <value n="pattern" v="WEB-INF/"/>
+                              <value n="type" v="1"/>
+                           </hash>
+                           <hash>
+                              <value n="pattern" v="**"/>
+                              <value n="type" v="0"/>
+                           </hash>
+                        </list>
+                     </hash>
+                     <value n="internalName" v="project-output"/>
+                     <value n="targetWithinJar" v="META-INF"/>
+                     <value n="type" v="1"/>
+                  </hash>
+                  <hash>
+                     <list n="contributors">
+                        <hash>
+                           <url n="location" path="public_html/WEB-INF/"/>
+                           <value n="type" v="1"/>
+                        </hash>
+                     </list>
+                     <value n="displayName" v="trinidad-skins"/>
+                     <hash n="filters">
+                        <list n="rules">
+                           <hash>
+                              <value n="pattern" v="trinidad-skins.xml"/>
+                              <value n="type" v="0"/>
+                           </hash>
+                           <hash>
+                              <value n="pattern" v="**"/>
+                              <value n="type" v="1"/>
+                           </hash>
+                        </list>
+                     </hash>
+                     <value n="targetWithinJar" v="META-INF"/>
+                     <value n="type" v="1"/>
+                  </hash>
+                  <hash>
+                     <list n="contributors">
+                        <hash>
+                           <url n="location" path="public_html/skins/sharedskin/"/>
+                           <value n="type" v="1"/>
+                        </hash>
+                     </list>
+                     <value n="displayName" v="Resources"/>
+                     <hash n="filters">
+                        <list n="rules">
+                           <hash>
+                              <value n="pattern" v="sharedskin.css"/>
+                              <value n="type" v="1"/>
+                           </hash>
+                           <hash>
+                              <value n="pattern" v="**"/>
+                              <value n="type" v="0"/>
+                           </hash>
+                        </list>
+                     </hash>
+                     <value n="targetWithinJar" v="META-INF"/>
+                     <value n="type" v="1"/>
+                  </hash>
+               </list>
+            </hash>
+            <url n="jarURL" path="deploy/blogsharedskin.jar"/>
+            <value n="profileClass" v="oracle.jdeveloper.deploy.jar.ArchiveProfile"/>
+            <value n="profileName" v="blogsharedskin"/>
+         </hash>
          <hash n="sharedskinadflib">
             <value n="adflib-connectionDetails" v="false"/>
             <hash n="archiveOptions">
@@ -143,110 +235,10 @@
             <value n="profileClass" v="oracle.adfdt.common.deploy.impl.AdfLibraryProfile"/>
             <value n="profileName" v="sharedskinadflib"/>
          </hash>
-         <hash n="xxx">
-            <hash n="archiveOptions">
-               <value n="hasManifest" v="true"/>
-            </hash>
-            <hash n="fileGroups">
-               <list n="groups">
-                  <hash>
-                     <list n="contributors">
-                        <hash>
-                           <value n="type" v="2"/>
-                        </hash>
-                        <hash>
-                           <value n="type" v="7"/>
-                        </hash>
-                        <hash>
-                           <url n="location" path="public_html/"/>
-                           <value n="type" v="1"/>
-                        </hash>
-                     </list>
-                     <value n="displayName" v="Project Output"/>
-                     <hash n="filters">
-                        <list n="rules">
-                           <hash>
-                              <value n="pattern" v="WEB-INF/"/>
-                              <value n="type" v="1"/>
-                           </hash>
-                           <hash>
-                              <value n="pattern" v="skins/sharedskin/adf/"/>
-                              <value n="type" v="1"/>
-                           </hash>
-                           <hash>
-                              <value n="pattern" v="**"/>
-                              <value n="type" v="0"/>
-                           </hash>
-                        </list>
-                     </hash>
-                     <value n="internalName" v="project-output"/>
-                     <value n="targetWithinJar" v="META-INF"/>
-                     <value n="type" v="1"/>
-                  </hash>
-                  <hash>
-                     <list n="contributors">
-                        <hash>
-                           <url n="location" path="public_html/WEB-INF/"/>
-                           <value n="type" v="1"/>
-                        </hash>
-                     </list>
-                     <value n="displayName" v="trinidad-skins"/>
-                     <hash n="filters">
-                        <list n="rules">
-                           <hash>
-                              <value n="pattern" v="faces-config.xml"/>
-                              <value n="type" v="1"/>
-                           </hash>
-                           <hash>
-                              <value n="pattern" v="trinidad-config.xml"/>
-                              <value n="type" v="1"/>
-                           </hash>
-                           <hash>
-                              <value n="pattern" v="web.xml"/>
-                              <value n="type" v="1"/>
-                           </hash>
-                           <hash>
-                              <value n="pattern" v="**"/>
-                              <value n="type" v="0"/>
-                           </hash>
-                        </list>
-                     </hash>
-                     <value n="targetWithinJar" v="META-INF"/>
-                     <value n="type" v="1"/>
-                  </hash>
-                  <hash>
-                     <list n="contributors">
-                        <hash>
-                           <url n="location" path="public_html/skins/sharedskin/"/>
-                           <value n="type" v="1"/>
-                        </hash>
-                     </list>
-                     <value n="displayName" v="Resources"/>
-                     <hash n="filters">
-                        <list n="rules">
-                           <hash>
-                              <value n="pattern" v="sharedskin.css"/>
-                              <value n="type" v="1"/>
-                           </hash>
-                           <hash>
-                              <value n="pattern" v="**"/>
-                              <value n="type" v="0"/>
-                           </hash>
-                        </list>
-                     </hash>
-                     <value n="targetWithinJar" v="META-INF"/>
-                     <value n="type" v="1"/>
-                  </hash>
-               </list>
-            </hash>
-            <url n="jarURL" path="deploy/xxx.jar"/>
-            <value n="profileClass" v="oracle.jdeveloper.deploy.jar.ArchiveProfile"/>
-            <value n="profileName" v="xxx"/>
-         </hash>
       </hash>
       <list n="profileList">
+         <string v="blogsharedskin"/>
          <string v="sharedskinadflib"/>
-         <string v="xxx"/>
       </list>
    </hash>
    <hash n="oracle.jdeveloper.model.J2eeSettings">
